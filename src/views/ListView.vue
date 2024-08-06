@@ -48,7 +48,7 @@
               class="card-img-top"
               alt=""
             />
-            <div class="card-body mt-4">
+            <div class="card-body p-0 mt-4">
               <h5 class="card-title">001</h5>
               <p class="card-text text-secondary">
                 拳擊boxing別名搏擊，是一項由兩位選手對賽的體育運動...

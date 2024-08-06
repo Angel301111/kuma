@@ -2,12 +2,10 @@
   <div class="col-lg-3 g-4 d-flex flex-column justify-content-between">
     <header>
       <nav class="navbar navbar-expand-lg navbar-light">
-        <div
-          class="container-fluid flex-lg-column justify-content-between"
-        >
-          <a class="navbar-brand m-0" href="#">
+        <div class="container-fluid flex-lg-column justify-content-between">
+          <router-link class="navbar-brand" aria-current="page" to="/homeview">
             <img src="/images/logo.png" alt="Logo" class="rwd" />
-          </a>
+          </router-link>
           <button
             class="navbar-toggler"
             type="button"
@@ -68,11 +66,11 @@
   </div>
 </template>
 <style>
-@media (max-width: 768px){
+@media (max-width: 768px) {
   .rwd {
     height: 100px;
   }
-  .navbar-toggler{
+  .navbar-toggler {
     margin-left: auto;
   }
 }

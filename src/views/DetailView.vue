@@ -97,5 +97,21 @@
   </section>
   <section class="container">
     <p>Related items</p>
+    <Swiper></Swiper>
   </section>
 </template>
+
+<script>
+import Swiper from '../components/Swiper.vue'
+
+export default {
+  components: {
+  Swiper
+},
+data() {
+  return {
+  }
+},
+
+}
+</script>
