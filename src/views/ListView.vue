@@ -22,156 +22,48 @@
     </div>
     <section class="mt-lg-10 my-4">
       <ul class="nav justify-content-center">
-        <li class="nav-item">
+        <li class="nav-item hr">
           <a class="nav-link nav-link-outline" href="#">All</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item hr">
           <a class="nav-link nav-link-outline" href="#">華麗</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item hr">
           <a class="nav-link nav-link-outline" href="#">復古</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item hr">
           <a class="nav-link nav-link-outline" href="#">極簡</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item hr">
           <a class="nav-link nav-link-outline" href="#">質感</a>
         </li>
       </ul>
     </section>
     <section>
       <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col">
+        <div class="col" v-for="item in cards" :key="item.id">
           <div class="card p-4 p-md-0">
-            <img
-              src="/images/photo2_0008_list01.png"
-              class="card-img-top"
-              alt=""
-            />
-            <div class="card-body p-0 mt-4">
-              <h5 class="card-title">001</h5>
-              <p class="card-text text-secondary">
-                拳擊boxing別名搏擊，是一項由兩位選手對賽的體育運動...
-              </p>
+            <div class="card-img">
+              <img :src="item.img" class="card-img-top" :alt="item.title" />
+              <div class="overlay">
+                <div class="text-center">
+                  <h5>{{ item.title }}</h5>
+                  <p>{{ item.details }}</p>
+                  <div class="links fs-4 d-flex justify-content-around">
+                    <a href="#" class="link">
+                      <i class="bi bi-arrows-angle-contract"></i
+                    ></a>
+                    <a href="#" class="link">
+                      <i class="bi bi-search-heart"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card  p-4 p-md-0">
-            <img
-              src="/images/photo2_0007_list02.png"
-              class="card-img-top"
-              alt="..."
-            />
             <div class="card-body p-0 mt-4">
-              <h5 class="card-title">001</h5>
+              <h5 class="card-title">{{ item.title }}</h5>
               <p class="card-text text-secondary">
-                拳擊boxing別名搏擊，是一項由兩位選手對賽的體育運動...
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card  p-4 p-md-0">
-            <img
-              src="/images/photo2_0006_list03.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body p-0 mt-4">
-              <h5 class="card-title">001</h5>
-              <p class="card-text text-secondary">
-                拳擊boxing別名搏擊，是一項由兩位選手對賽的體育運動...
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card  p-4 p-md-0">
-            <img
-              src="/images/photo2_0005_list04.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body p-0 mt-4">
-              <h5 class="card-title">001</h5>
-              <p class="card-text text-secondary">
-                拳擊boxing別名搏擊，是一項由兩位選手對賽的體育運動...
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card  p-4 p-md-0">
-            <img
-              src="/images/photo2_0004_list05.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body p-0 mt-4">
-              <h5 class="card-title">001</h5>
-              <p class="card-text text-secondary">
-                拳擊boxing別名搏擊，是一項由兩位選手對賽的體育運動...
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card  p-4 p-md-0">
-            <img
-              src="/images/photo2_0003_list06.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body p-0 mt-4">
-              <h5 class="card-title">001</h5>
-              <p class="card-text text-secondary">
-                拳擊boxing別名搏擊，是一項由兩位選手對賽的體育運動...
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card  p-4 p-md-0">
-            <img
-              src="/images/photo2_0002_list07.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body p-0 mt-4">
-              <h5 class="card-title">001</h5>
-              <p class="card-text text-secondary">
-                拳擊boxing別名搏擊，是一項由兩位選手對賽的體育運動...
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card  p-4 p-md-0">
-            <img
-              src="/images/photo2_0001_list08.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body p-0 mt-4">
-              <h5 class="card-title">001</h5>
-              <p class="card-text text-secondary">
-                拳擊boxing別名搏擊，是一項由兩位選手對賽的體育運動...
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card  p-4 p-md-0">
-            <img
-              src="/images/photo2_0000_list09.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body p-0 mt-4">
-              <h5 class="card-title">001</h5>
-              <p class="card-text text-secondary">
-                拳擊boxing別名搏擊，是一項由兩位選手對賽的體育運動...
+                {{ item.description }}
               </p>
             </div>
           </div>
@@ -191,11 +83,117 @@
   </main>
 </template>
 
+<script>
+export default {
+  data() {
+    return {
+      cards: [
+        {
+          id: "001",
+          title: "001",
+          description: "拳擊boxing別名搏擊，是一項由兩位選手對賽的體育運動...",
+          img: "/kuma/images/photo2_0008_list01.png",
+          details: "扁平化 极简 白 童趣 红绿",
+        },
+        {
+          id: "002",
+          title: "002",
+          description: "拳擊boxing別名搏擊，是一項由兩位選手對賽的體育運動...",
+          img: "/kuma/images/photo2_0007_list02.png",
+          details: "扁平化 极简 白 童趣 红绿",
+        },
+        {
+          id: "003",
+          title: "003",
+          description: "拳擊boxing別名搏擊，是一項由兩位選手對賽的體育運動...",
+          img: "/kuma/images/photo2_0006_list03.png",
+          details: "扁平化 极简 白 童趣 红绿",
+        },
+        {
+          id: "004",
+          title: "004",
+          description: "拳擊boxing別名搏擊，是一項由兩位選手對賽的體育運動...",
+          img: "/kuma/images/photo2_0005_list04.png",
+          details: "扁平化 极简 白 童趣 红绿",
+        },
+        {
+          id: "005",
+          title: "005",
+          description: "拳擊boxing別名搏擊，是一項由兩位選手對賽的體育運動...",
+          img: "/kuma/images/photo2_0004_list05.png",
+          details: "扁平化 极简 白 童趣 红绿",
+        },
+        {
+          id: "006",
+          title: "006",
+          description: "拳擊boxing別名搏擊，是一項由兩位選手對賽的體育運動...",
+          img: "/kuma/images/photo2_0003_list06.png",
+          details: "扁平化 极简 白 童趣 红绿",
+        },
+        {
+          id: "007",
+          title: "007",
+          description: "拳擊boxing別名搏擊，是一項由兩位選手對賽的體育運動...",
+          img: "/kuma/images/photo2_0002_list07.png",
+          details: "扁平化 极简 白 童趣 红绿",
+        },
+        {
+          id: "009",
+          title: "009",
+          description: "拳擊boxing別名搏擊，是一項由兩位選手對賽的體育運動...",
+          img: "/kuma/images/photo2_0000_list09.png",
+          details: "扁平化 极简 白 童趣 红绿",
+        }
+      ],
+    };
+  },
+};
+</script>
+
 <style>
-.nav-link-outline {
+.hr {
   border-bottom: 1px #f5f5f5 solid;
+}
+.nav-link-outline {
+  border-bottom: 3px solid transparent;
 }
 .nav-link-outline:hover {
   border-bottom: 3px purple solid;
+}
+.card-img {
+  position: relative;
+  overflow: hidden;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(128, 0, 128, 0.8);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.card-img:hover .overlay {
+  opacity: 1;
+}
+
+.link {
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.link:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: black;
 }
 </style>

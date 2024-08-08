@@ -31,39 +31,10 @@
       <div class="col-lg-7">
         <img src="/images/photo2_0008_list01.png" alt="001" class="img-fluid" />
         <div class="row row-cols-2 row-cols-lg-3 g-4 my-4">
-          <div class="col">
+          <div class="col" v-for="item in photos" :key="item.id">
             <img
-              src="/images/photo2_0008_list01.png"
-              alt="001"
-              class="img-fluid"
-            />
-          </div>
-
-          <div class="col">
-            <img
-              src="/images/photo2_0008_list01.png"
-              alt="001"
-              class="img-fluid"
-            />
-          </div>
-          <div class="col">
-            <img
-              src="/images/photo2_0008_list01.png"
-              alt="001"
-              class="img-fluid"
-            />
-          </div>
-          <div class="col">
-            <img
-              src="/images/photo2_0008_list01.png"
-              alt="001"
-              class="img-fluid"
-            />
-          </div>
-          <div class="col">
-            <img
-              src="/images/photo2_0008_list01.png"
-              alt="001"
+              :src="item.img"
+              :alt="item.title"
               class="img-fluid"
             />
           </div>
@@ -102,16 +73,42 @@
 </template>
 
 <script>
-import Swiper from '../components/Swiper.vue'
+import Swiper from "../components/Swiper.vue";
 
 export default {
   components: {
-  Swiper
-},
-data() {
-  return {
+    Swiper,
+  },
+  data() {
+    return {
+      photos: [
+        {
+          img: "/kuma/images/photo2_0008_list01.png",
+          title: "001",
+          id: "001",
+        },
+        {
+          img: "/kuma/images/photo2_0008_list01.png",
+          title: "001",
+          id: "002",
+        },
+        {
+          img: "/kuma/images/photo2_0008_list01.png",
+          title: "001",
+          id: "003",
+        },
+        {
+          img: "/kuma/images/photo2_0008_list01.png",
+          title: "001",
+          id: "004",
+        },
+        {
+          img: "/kuma/images/photo2_0008_list01.png",
+          title: "001",
+          id: "005",
+        }
+      ]
+    };
   }
-},
-
-}
+};
 </script>
