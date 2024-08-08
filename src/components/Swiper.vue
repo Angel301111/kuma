@@ -15,148 +15,148 @@
     }"
   >
     <Swiper-Slide>
-        <div class="card-img-top mb-2">
-          <img
-            style="height: 150px; object-fit: cover"
-            class="w-100"
-            src="/images/photo2_0007_list02.png"
-            alt=""
-          />
+      <div class="card-img-top mb-2">
+        <img
+          style="height: 150px; object-fit: cover"
+          class="w-100"
+          src="/images/photo2_0007_list02.png"
+          alt=""
+        />
+      </div>
+      <div class="card-body mb-4">
+        <div
+          class="d-flex flex-column justify-content-center align-items-center"
+        >
+          <h5>111</h5>
         </div>
-        <div class="card-body mb-4">
-          <div
-            class="d-flex flex-column justify-content-center align-items-center"
-          >
-            <h5>111</h5>
-          </div>
-        </div>
+      </div>
     </Swiper-Slide>
     <swiper-slide>
       <div class="card-img-top mb-2">
-          <img
-            style="height: 150px; object-fit: cover"
-            class="w-100"
-            src="/images/photo2_0007_list02.png"
-            alt=""
-          />
+        <img
+          style="height: 150px; object-fit: cover"
+          class="w-100"
+          src="/images/photo2_0007_list02.png"
+          alt=""
+        />
+      </div>
+      <div class="card-body mb-4">
+        <div
+          class="d-flex flex-column justify-content-center align-items-center"
+        >
+          <h5>222</h5>
         </div>
-        <div class="card-body mb-4">
-          <div
-            class="d-flex flex-column justify-content-center align-items-center"
-          >
-            <h5>222</h5>
-          </div>
-        </div>
+      </div>
     </swiper-slide>
     <swiper-slide>
       <div class="card-img-top mb-2">
-          <img
-            style="height: 150px; object-fit: cover"
-            class="w-100"
-            src="/images/photo2_0007_list02.png"
-            alt=""
-          />
+        <img
+          style="height: 150px; object-fit: cover"
+          class="w-100"
+          src="/images/photo2_0007_list02.png"
+          alt=""
+        />
+      </div>
+      <div class="card-body mb-4">
+        <div
+          class="d-flex flex-column justify-content-center align-items-center"
+        >
+          <h5>222</h5>
         </div>
-        <div class="card-body mb-4">
-          <div
-            class="d-flex flex-column justify-content-center align-items-center"
-          >
-            <h5>222</h5>
-          </div>
-        </div>
+      </div>
     </swiper-slide>
     <swiper-slide>
       <div class="card-img-top mb-2">
-          <img
-            style="height: 150px; object-fit: cover"
-            class="w-100"
-            src="/images/photo2_0007_list02.png"
-            alt=""
-          />
+        <img
+          style="height: 150px; object-fit: cover"
+          class="w-100"
+          src="/images/photo2_0007_list02.png"
+          alt=""
+        />
+      </div>
+      <div class="card-body mb-4">
+        <div
+          class="d-flex flex-column justify-content-center align-items-center"
+        >
+          <h5>222</h5>
         </div>
-        <div class="card-body mb-4">
-          <div
-            class="d-flex flex-column justify-content-center align-items-center"
-          >
-            <h5>222</h5>
-          </div>
-        </div>
+      </div>
     </swiper-slide>
     <swiper-slide>
       <div class="card-img-top mb-2">
-          <img
-            style="height: 150px; object-fit: cover"
-            class="w-100"
-            src="/images/photo2_0007_list02.png"
-            alt=""
-          />
+        <img
+          style="height: 150px; object-fit: cover"
+          class="w-100"
+          src="/images/photo2_0007_list02.png"
+          alt=""
+        />
+      </div>
+      <div class="card-body mb-4">
+        <div
+          class="d-flex flex-column justify-content-center align-items-center"
+        >
+          <h5>222</h5>
         </div>
-        <div class="card-body mb-4">
-          <div
-            class="d-flex flex-column justify-content-center align-items-center"
-          >
-            <h5>222</h5>
-          </div>
-        </div>
+      </div>
     </swiper-slide>
     <swiper-slide>
       <div class="card-img-top mb-2">
-          <img
-            style="height: 150px; object-fit: cover"
-            class="w-100"
-            src="/images/photo2_0007_list02.png"
-            alt=""
-          />
+        <img
+          style="height: 150px; object-fit: cover"
+          class="w-100"
+          src="/images/photo2_0007_list02.png"
+          alt=""
+        />
+      </div>
+      <div class="card-body mb-4">
+        <div
+          class="d-flex flex-column justify-content-center align-items-center"
+        >
+          <h5>222</h5>
         </div>
-        <div class="card-body mb-4">
-          <div
-            class="d-flex flex-column justify-content-center align-items-center"
-          >
-            <h5>222</h5>
-          </div>
-        </div>
+      </div>
     </swiper-slide>
     <swiper-slide>
       <div class="card-img-top mb-2">
-          <img
-            style="height: 150px; object-fit: cover"
-            class="w-100"
-            src="/images/photo2_0007_list02.png"
-            alt=""
-          />
+        <img
+          style="height: 150px; object-fit: cover"
+          class="w-100"
+          src="/images/photo2_0007_list02.png"
+          alt=""
+        />
+      </div>
+      <div class="card-body mb-4">
+        <div
+          class="d-flex flex-column justify-content-center align-items-center"
+        >
+          <h5>222</h5>
         </div>
-        <div class="card-body mb-4">
-          <div
-            class="d-flex flex-column justify-content-center align-items-center"
-          >
-            <h5>222</h5>
-          </div>
-        </div>
+      </div>
     </swiper-slide>
   </Swiper>
 </template>
 
 <script>
-import { Swiper, SwiperSlide } from 'swiper/vue'
-import { Pagination, Autoplay } from 'swiper/modules'
-import 'swiper/css'
-import 'swiper/css/pagination'
+import { Swiper, SwiperSlide } from "swiper/vue";
+import { Pagination, Autoplay } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/pagination";
 
 export default {
   data() {
     return {
-      modules: [Pagination, Autoplay]
-    }
+      modules: [Pagination, Autoplay],
+    };
   },
   components: {
     Swiper,
-    SwiperSlide
-  }
-}
+    SwiperSlide,
+  },
+};
 </script>
 
-<style>
-.swiper-pagination-bullet {
+<style lang="scss" scoped>
+:deep(.swiper-pagination-bullet) {
   background: purple;
   width: 10px;
   height: 10px;
