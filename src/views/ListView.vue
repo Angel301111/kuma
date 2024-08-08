@@ -164,7 +164,7 @@
         <div class="col">
           <div class="card  p-4 p-md-0">
             <img
-              src="/public/images/photo2_0000_list09.png"
+              src="/images/photo2_0000_list09.png"
               class="card-img-top"
               alt="..."
             />

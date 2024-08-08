@@ -14,14 +14,7 @@
   >
     <Swiper-Slide>
       <main
-        class="d-flex justify-content-center"
-        style="
-          background-image: url('/images/home01.png');
-          height: 100vh;
-          background-size: cover;
-          background-position: center center;
-          background-repeat: no-repeat;
-        "
+        class="d-flex justify-content-center bg1"
       >
         <div class="text-center text-white mt-10" style="position: relative">
           <h1 class="display-3 mt-5">卓越品質 歷久不衰</h1>
@@ -42,16 +35,8 @@
     </Swiper-Slide>
     <swiper-slide>
       <main
-        class="d-flex justify-content-center"
-        style="
-          background-image: url('/images/home02.png');
-          height: 100vh;
-          background-size: cover;
-          background-position: center center;
-          background-repeat: no-repeat;
-        "
-      >
-      </main>
+        class="d-flex justify-content-center bg2"
+      ></main>
     </swiper-slide>
     <button class="swiper-button-next d-none d-lg-block"></button>
   </Swiper>
@@ -78,6 +63,20 @@ export default {
 </script>
 
 <style>
+.bg1 {
+  background: url("/images/home01.png");
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.bg2 {
+  background: url("/images/home02.png");
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
 .swiper-button-next {
   background: url("/images/home02.png") no-repeat;
   background-size: 75px 75px;
