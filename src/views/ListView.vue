@@ -50,15 +50,15 @@
                   <h5>{{ item.title }}</h5>
                   <p>{{ item.details }}</p>
                   <div class="links fs-4 d-flex justify-content-around">
-                    <a href="#" class="link">
+                    <div href="#" class="link">
                       <i class="bi bi-arrows-angle-contract"></i
-                    ></a>
-                    <a href="#" class="link">
+                    ></div>
+                    <div class="link">
                       <i
                         class="bi bi-search-heart"
                         @click.prevent="openModal(item)"
                       ></i
-                    ></a>
+                    ></div>
                   </div>
                 </div>
               </div>
