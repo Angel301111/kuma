@@ -54,7 +54,10 @@
                       <i class="bi bi-arrows-angle-contract"></i
                     ></a>
                     <a href="#" class="link">
-                      <i class="bi bi-search-heart"></i
+                      <i
+                        class="bi bi-search-heart"
+                        @click.prevent="openModal(item)"
+                      ></i
                     ></a>
                   </div>
                 </div>
@@ -81,10 +84,15 @@
       </ul>
     </nav>
   </main>
+  <Modal ref="imgModal" :modalCard="card"></Modal>
 </template>
 
 <script>
+import Modal from "../components/Modal.vue";
 export default {
+  components: {
+    Modal,
+  },
   data() {
     return {
       cards: [
@@ -143,10 +151,17 @@ export default {
           description: "拳擊boxing別名搏擊，是一項由兩位選手對賽的體育運動...",
           img: "/kuma/images/photo2_0000_list09.png",
           details: "扁平化 极简 白 童趣 红绿",
-        }
+        },
       ],
+      card: {}
     };
   },
+  methods: {
+    openModal(item){
+      this.card = item
+      this.$refs.imgModal.showModal()
+    }
+  }
 };
 </script>
 
