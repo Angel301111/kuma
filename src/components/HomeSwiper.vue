@@ -1,7 +1,7 @@
 <template>
   <Swiper
     :modules="modules"
-    class="mySwiper"
+    class="myHomeSwiper"
     :pagination="{ dynamicBullets: true, clickable: true }"
     :navigation="{
       prevEl: '.swiper-button-prev',
@@ -16,17 +16,11 @@
       <main
         class="d-flex justify-content-center bg1"
       >
-        <div class="text-center text-white mt-10" style="position: relative">
+        <div class="text-center text-white mt-10 position-relative">
           <h1 class="display-3 mt-5">卓越品質 歷久不衰</h1>
           <p class="display-5 mt-3">讓經營成為享受</p>
           <p
-            class=""
-            style="
-              position: absolute;
-              top: 50%;
-              left: 50%;
-              transform: translate(-50%, -50%);
-            "
+            class="position-absolute top-50 start-50 translate-middle"
           >
             酷碼 期待與您合作
           </p>
@@ -61,42 +55,3 @@ export default {
   },
 };
 </script>
-
-<style>
-.bg1 {
-  background: url("/images/home01.png");
-  height: 100vh;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
-.bg2 {
-  background: url("/images/home02.png");
-  height: 100vh;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
-.swiper-button-next {
-  background: url("/images/home02.png") no-repeat;
-  background-size: 75px 75px;
-
-  text-indent: 55%;
-  background-color: white;
-  color: gray;
-  width: 150px;
-  height: 75px;
-  border: none;
-  outline: none;
-}
-
-.swiper-button-next::after {
-  font-size: 20px;
-}
-
-.swiper-pagination-bullet {
-  background: white;
-  height: 20px;
-  width: 20px;
-}
-</style>

@@ -1,28 +1,16 @@
 <template>
   <div
-    class="banner d-flex justify-content-between align-items-center bg-light px-5"
-    style="height: 100px"
+    class="banner d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center bg-light px-5 hp100"
   >
     <p class="m-0">課程細節</p>
     <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
       <ol class="breadcrumb m-0">
         <li class="breadcrumb-item">
-          <router-link
-            to="/homeview"
-            class="breadcrumb-link"
-            style="text-decoration: none; color: #6c757d"
-          >
+          <router-link to="/homeview" class="breadcrumb-link">
             首頁
           </router-link>
         </li>
-        <li
-          class="breadcrumb-item"
-          style="text-decoration: none; color: #6c757d"
-          aria-current="page"
-        >
-          課程細節
-        </li>
-        <li class="breadcrumb-item active" aria-current="page">001</li>
+        <li class="breadcrumb-item" aria-current="page">課程細節</li>
       </ol>
     </nav>
   </div>
@@ -51,9 +39,9 @@
           <li>以上两点如有特殊需求请告知</li>
           <li>网页语系，功能按钮，标题名称皆以酷码为主</li>
         </ul>
-        <ul style="list-style: none; position: relative">
+        <ul class="position-relative list-style-none">
           <li class="">
-            <i class="bi bi-folder2" style="position: absolute; left: 5px"></i
+            <i class="bi bi-folder2 position-absolute" style="left: 5px"></i
             >模版需求分类
           </li>
           <li>扁平化，极简，白，童趣，红，绿</li>
@@ -105,6 +93,6 @@ export default {
         },
       ],
     };
-  }
+  },
 };
 </script>

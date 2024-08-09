@@ -4,7 +4,7 @@
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid flex-lg-column justify-content-between">
           <router-link class="navbar-brand" aria-current="page" to="/homeview">
-            <img src="/images/logo.png" alt="Logo" class="rwd" />
+            <img src="/images/logo.png" alt="Logo" class="mdImg" />
           </router-link>
           <button
             class="navbar-toggler"
@@ -72,23 +72,13 @@
 </template>
 
 <script>
-export default{
+export default {
   methods: {
     closeNav() {
       if (document.body.offsetWidth < 992) {
-        this.$refs.navbarBtn.click()
+        this.$refs.navbarBtn.click();
       }
-  }
-}
-}
+    },
+  },
+};
 </script>
-<style>
-@media (max-width: 768px) {
-  .rwd {
-    height: 100px;
-  }
-  .navbar-toggler {
-    margin-left: auto;
-  }
-}
-</style>

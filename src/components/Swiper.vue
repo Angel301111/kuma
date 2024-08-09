@@ -89,11 +89,3 @@ export default {
   },
 };
 </script>
-
-<style lang="scss" scoped>
-:deep(.swiper-pagination-bullet) {
-  background: purple;
-  width: 10px;
-  height: 10px;
-}
-</style>

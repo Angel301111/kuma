@@ -2,7 +2,7 @@
   <div class="container-fluid">
     <div class="row">
       <Navbar />
-      <div class="col-lg-9 sticky-footer">
+      <div class="col-lg-9 d-flex flex-column min-vh-100">
         <div class="mb-auto">
           <router-view />
         </div>
@@ -23,11 +23,3 @@ export default {
   },
 };
 </script>
-
-<style>
-.sticky-footer {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-</style>

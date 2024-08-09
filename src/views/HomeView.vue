@@ -1,17 +1,12 @@
 <template>
-<HomeSwiper></HomeSwiper>
+  <HomeSwiper></HomeSwiper>
 </template>
 
 <script>
-import HomeSwiper from '../components/HomeSwiper.vue'
+import HomeSwiper from "../components/HomeSwiper.vue";
 export default {
   components: {
-    HomeSwiper
-},
-data() {
-  return {
-  }
-},
-
-}
+    HomeSwiper,
+  },
+};
 </script>

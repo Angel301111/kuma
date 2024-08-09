@@ -1,9 +1,15 @@
 @import "../../node_modules/bootstrap/scss/functions";
-@import "./helpers/variables";
-@import "./helpers/variables-dark";
+@import "./helpers/scss/variables";
+@import "./helpers/scss/variables-dark";
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
-@import "./helpers/utilities";
+@import "./helpers/scss/utilities";
 
+// components
+@import "./helpers/components/homeSwiper";
+@import "./helpers/components/navbar";
+@import "./helpers/components/swiper";
 
-
-
+// views
+@import "./helpers/views/contactView";
+@import "./helpers/views/detailView";
+@import "./helpers/views/listView";

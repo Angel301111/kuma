@@ -1,22 +1,17 @@
 <template>
-  <main class="">
+  <main>
     <div
-      class="banner d-flex justify-content-between align-items-center bg-light px-5"
-      style="height: 100px"
+      class="banner d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center bg-light px-5 hp100"
     >
       <p class="m-0">所有課程</p>
       <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
         <ol class="breadcrumb m-0">
           <li class="breadcrumb-item">
-            <router-link
-              to="/homeview"
-              class="breadcrumb-link"
-              style="text-decoration: none; color: #6c757d"
-            >
+            <router-link to="/homeview" class="breadcrumb-link">
               首頁
             </router-link>
           </li>
-          <li class="breadcrumb-item active" aria-current="page">所有課程</li>
+          <li class="breadcrumb-item" aria-current="page">所有課程</li>
         </ol>
       </nav>
     </div>
@@ -51,14 +46,14 @@
                   <p>{{ item.details }}</p>
                   <div class="links fs-4 d-flex justify-content-around">
                     <div href="#" class="link">
-                      <i class="bi bi-arrows-angle-contract"></i
-                    ></div>
+                      <i class="bi bi-arrows-angle-contract"></i>
+                    </div>
                     <div class="link">
                       <i
                         class="bi bi-search-heart"
                         @click.prevent="openModal(item)"
-                      ></i
-                    ></div>
+                      ></i>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -153,62 +148,14 @@ export default {
           details: "扁平化 极简 白 童趣 红绿",
         },
       ],
-      card: {}
+      card: {},
     };
   },
   methods: {
-    openModal(item){
-      this.card = item
-      this.$refs.imgModal.showModal()
-    }
-  }
+    openModal(item) {
+      this.card = item;
+      this.$refs.imgModal.showModal();
+    },
+  },
 };
 </script>
-
-<style>
-.hr {
-  border-bottom: 1px #f5f5f5 solid;
-}
-.nav-link-outline {
-  border-bottom: 3px solid transparent;
-}
-.nav-link-outline:hover {
-  border-bottom: 3px purple solid;
-}
-.card-img {
-  position: relative;
-  overflow: hidden;
-}
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(128, 0, 128, 0.8);
-  color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-  border-radius: 5px;
-  cursor: pointer;
-}
-.card-img:hover .overlay {
-  opacity: 1;
-}
-
-.link {
-  color: white;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-}
-
-.link:hover {
-  background-color: rgba(255, 255, 255, 0.8);
-  color: black;
-}
-</style>
